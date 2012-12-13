@@ -9,14 +9,21 @@
 #import "ViewController.h"
 #import "RXMLElement.h"
 
-@interface ViewController ()
-@property(strong, nonatomic) NSArray *articles;
-@end
-
 #define ARTICLE_TITLE @"title"
 #define ARTICLE_HOST  @"articleHost"
 #define ARTICLE_LINK  @"articleLink"
 #define COMMENTS_LINK @"commentsLink"
+
+enum {
+    kTitleLabel = 1,
+    kHostLabel = 2,
+    kNumberLabel = 3
+};
+
+@interface ViewController ()
+@property(strong, nonatomic) NSArray *articles;
+@end
+
 
 @implementation ViewController
 
@@ -87,10 +94,12 @@
     
     // Configure the cell...
     NSDictionary *article = self.articles[indexPath.row];
-    UILabel *title = (UILabel *)[cell viewWithTag:1];
-    UILabel *link  = (UILabel *)[cell viewWithTag:2];
-    title.text = [article valueForKey:ARTICLE_TITLE];
-    link.text = [article valueForKey:ARTICLE_HOST];
+    NSString *number = [NSString stringWithFormat:@"%d.", (indexPath.row+1)];
+
+    [(UILabel *)[cell viewWithTag:kTitleLabel] setText:[article valueForKey:ARTICLE_TITLE]];
+    [(UILabel *)[cell viewWithTag:kHostLabel] setText:[article valueForKey:ARTICLE_HOST]];
+    [(UILabel *)[cell viewWithTag:kNumberLabel] setText:number];
+
     return cell;
 }
 
