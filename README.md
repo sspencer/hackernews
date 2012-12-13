@@ -7,6 +7,3 @@ A fun little project to make downloading hacker news just a little bit faster (b
 
 Uses [RaptureXML](https://github.com/ZaBlanc/RaptureXML) for super easy XML parsing and network fetching.
 
-
-
-
