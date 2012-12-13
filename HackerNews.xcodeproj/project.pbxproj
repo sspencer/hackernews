@@ -19,6 +19,8 @@
 		33B10F28167959AF0097B5F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B10F26167959AF0097B5F9 /* MainStoryboard.storyboard */; };
 		33C9A84416795AA500347184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9A84316795AA500347184 /* ViewController.m */; };
 		761AD36C266C4696BA705C74 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AF6105D3241B2ADF21537 /* libPods.a */; };
+		AA2ED499167983B000AC4978 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AA2ED497167983B000AC4978 /* Podfile */; };
+		AA2ED49A167983B000AC4978 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA2ED498167983B000AC4978 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		33C9A84216795AA500347184 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33C9A84316795AA500347184 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		651AF6105D3241B2ADF21537 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2ED497167983B000AC4978 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		AA2ED498167983B000AC4978 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		FB9FB9CFA44648C99999E599 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -102,13 +106,15 @@
 		33B10F15167959AF0097B5F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				33B10F16167959AF0097B5F9 /* HackerNews-Info.plist */,
-				33B10F17167959AF0097B5F9 /* InfoPlist.strings */,
-				33B10F1A167959AF0097B5F9 /* main.m */,
-				33B10F1C167959AF0097B5F9 /* HackerNews-Prefix.pch */,
+				33B10F24167959AF0097B5F9 /* Default-568h@2x.png */,
 				33B10F20167959AF0097B5F9 /* Default.png */,
 				33B10F22167959AF0097B5F9 /* Default@2x.png */,
-				33B10F24167959AF0097B5F9 /* Default-568h@2x.png */,
+				33B10F16167959AF0097B5F9 /* HackerNews-Info.plist */,
+				33B10F1C167959AF0097B5F9 /* HackerNews-Prefix.pch */,
+				33B10F17167959AF0097B5F9 /* InfoPlist.strings */,
+				33B10F1A167959AF0097B5F9 /* main.m */,
+				AA2ED497167983B000AC4978 /* Podfile */,
+				AA2ED498167983B000AC4978 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				33B10F23167959AF0097B5F9 /* Default@2x.png in Resources */,
 				33B10F25167959AF0097B5F9 /* Default-568h@2x.png in Resources */,
 				33B10F28167959AF0097B5F9 /* MainStoryboard.storyboard in Resources */,
+				AA2ED499167983B000AC4978 /* Podfile in Resources */,
+				AA2ED49A167983B000AC4978 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
