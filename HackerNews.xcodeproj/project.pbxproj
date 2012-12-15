@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33006FBB167BF1B500E48BFD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33006FBA167BF1B500E48BFD /* WebViewController.m */; };
 		33B10F0F167959AF0097B5F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B10F0E167959AF0097B5F9 /* UIKit.framework */; };
 		33B10F11167959AF0097B5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B10F10167959AF0097B5F9 /* Foundation.framework */; };
 		33B10F13167959AF0097B5F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B10F12167959AF0097B5F9 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33006FB9167BF1B500E48BFD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		33006FBA167BF1B500E48BFD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		33B10F0A167959AF0097B5F9 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B10F0E167959AF0097B5F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		33B10F10167959AF0097B5F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 				33B10F1D167959AF0097B5F9 /* AppDelegate.h */,
 				33B10F1E167959AF0097B5F9 /* AppDelegate.m */,
 				33B10F26167959AF0097B5F9 /* MainStoryboard.storyboard */,
+				33006FB9167BF1B500E48BFD /* WebViewController.h */,
+				33006FBA167BF1B500E48BFD /* WebViewController.m */,
 				33C9A84216795AA500347184 /* ViewController.h */,
 				33C9A84316795AA500347184 /* ViewController.m */,
 				33B10F15167959AF0097B5F9 /* Supporting Files */,
@@ -208,6 +213,7 @@
 				33B10F1B167959AF0097B5F9 /* main.m in Sources */,
 				33B10F1F167959AF0097B5F9 /* AppDelegate.m in Sources */,
 				33C9A84416795AA500347184 /* ViewController.m in Sources */,
+				33006FBB167BF1B500E48BFD /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
